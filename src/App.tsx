@@ -1,14 +1,9 @@
-import { Button } from './components/Button';
+import { Home } from './pages/Home';
 
 import './services/firebase';
 
 function App() {
-  return (
-    <div>
-      <h1>Hello world</h1>
-      <Button text="Botão 1" />
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
